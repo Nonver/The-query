@@ -89,7 +89,7 @@ Page({
   Ther(e){
     var than = this;
     wx.request({
-      url: 'https://apio.ink/xiaomi/php/api.php', //仅为示例，并非真实的接口地址
+      url: 'url', //仅为示例，并非真实的接口地址
       data: {
         phone:this.data.name,
         password:this.data.password,
@@ -131,7 +131,7 @@ Page({
   The(e){
     var than = this;
     wx.request({
-      url: 'https://apio.ink/mfcz/php/tz.php', //仅为示例，并非真实的接口地址
+      url: 'url', //仅为示例，并非真实的接口地址
       data: {
         uin:this.data.val,
         uid:this.data.valr
